@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 124, 124, 0.774);
+}
+
+#icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 25%;
+}
+
+#icon img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 4px rgba(56, 55, 55, 0.822));
+}
+
+#icon h2 {
+    font-family: 'Gilroy';
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+    filter: drop-shadow(3px 3px 4px rgba(56, 55, 55, 0.822));
+}
+
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.whiteText {
+    color: #fff;
+}
+
+#main #display {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1C1D1F;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#display h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.7px;
+    padding: 15px 15px;
+}
+
+#display h2 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 10%;
+    font-size: 50px;
+    font-weight: normal;
+    top: 7%;
+    /* transform: translateY(-100%); */
+}
+
+#display h3 {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 30px;
+    /* transform: translateY(-100%); */
+    opacity: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#main #wrapper {
+    width: 20.8%;
+    height: 63%;
+    background-color: black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    top: 45.3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main #buttons {
+    width: 19%;
+    height: 35%;
+    /* background-color: red; */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    top: 59%;
+    left: 50.75%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns:5fr 5fr 5fr 5fr;
+    grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
+    /* column-gap: 0px */
+    /* gap: 1px; */
+}
+
+#buttons .cb {
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+    /* background-color: rgb(172, 27, 27); */
+    /* position: relative; */
+    /* background-color: rgb(5, 255, 5); */
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.253);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#ac h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 270;
+}
+
+#n0 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n1 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n4 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n5 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n6 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n7 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n8 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#n9 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#del ion-icon {
+    font-size: 23px;
+    font-weight: 200;
+    /* pointer-events: none; */
+}
+
+#percent img {
+    object-fit: cover;
+    width: 45%;
+}
+
+#equals img {
+    object-fit: cover;
+    width: 40%;
+}
+
+#multiply img {
+    object-fit: cover;
+    width: 32%;
+}
+
+#expand img {
+    object-fit: cover;
+    width: 40%;
+}
+
+#divide i {
+    font-size: 20px;
+}
+
+#decimal h3 {
+    font-size: 20px;
+    position: absolute;
+    bottom: 9%;
+}
+
+#subtract ion-icon {
+    font-size: 20px;
+}
+
+#add ion-icon {
+    font-size: 20px;
+}
+
+#equals i {
+    font-size: 15px;
+}
+
+#divide {
+    background-color: rgba(43, 43, 43, 0.89);
+    border-radius: 50%;
+}
+
+#multiply {
+    background-color:rgba(43, 43, 43, 0.89);
+    border-radius: 50%;
+}
+
+#subtract {
+    background-color:rgba(43, 43, 43, 0.89);
+    border-radius: 50%;
+}
+
+#add {
+    background-color:rgba(43, 43, 43, 0.89);
+    border-radius: 50%;
+}
+
+#equals {
+    background-color: red;
+    border-radius: 50%;
+}
+
+#subtract h3 {
+    font-size: 0px;
+}
+
+#equals h3 {
+    font-size: 0px;
+}
+
+#add h3 {
+    font-size: 0px;
+}
+
+#multiply h3 {
+    font-size: 0px;
+}
+
+#divide h3 {
+    font-size: 0px;
+}
+
+#percent h3 {
+    font-size: 0px;
+}
+
+#del h3 {
+    font-size: 0px;
+}
